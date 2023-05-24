@@ -8,7 +8,7 @@ Home lab purpose:
 - Vulnerability Scanning;
 - Email Forensic;
 
-“Small” list of tools needed:
+“Small” list of tools:
 
 Firewall
 Malware Analysis (MA) VMs (one for Linux and one for Windows)
