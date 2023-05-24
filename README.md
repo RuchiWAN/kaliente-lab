@@ -11,17 +11,28 @@ Home lab purpose:
 “Small” list of tools:
 
 Firewall
+
 Malware Analysis (MA) VMs (one for Linux and one for Windows)
+
 Windows 7 host
+
 Windows 10 host
+
 Windows Server AD
+
 Linux Server(s)
+
 Kali Linux
+
 Linux Tsurugi
+
 SIEM
+
 Vulnerability Scanner
 
+
 VLANs topology:
+
 VLAN 1: management VLAN to access a firewall web GUI.
 
 VLAN 10: corporate WAN VLAN (or Fake WAN). This VLAN includes Kali Linux which will simulate a malicious device coming from outside. Plus it will have access only to corporate VLAN 20. I don’t want to be able to reach the real Internet or my personal machine, as I don’t want to push some malicious script/software by accident to others.
